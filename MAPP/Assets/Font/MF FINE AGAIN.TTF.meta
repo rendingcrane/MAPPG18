@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: bb1ecd1ca06cc1840bdd32bd29b6d505
+timeCreated: 1521981404
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mf Fine Again
+  fontNames:
+  - Mf Fine Again
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 425525b4c36ebf743a9e92029717040e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

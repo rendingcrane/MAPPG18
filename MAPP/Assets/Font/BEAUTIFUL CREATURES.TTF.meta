@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: c8dbee084cd78054a8a525167fc4a6c8
+timeCreated: 1521981178
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Beautiful Creatures
+  fontNames:
+  - Beautiful Creatures
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

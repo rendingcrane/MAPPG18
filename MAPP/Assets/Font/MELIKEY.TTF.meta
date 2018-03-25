@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 42dcc1674c4935d4f9900a59341ef13e
+timeCreated: 1521981334
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Me Likey ~
+  fontNames:
+  - Me Likey ~
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
