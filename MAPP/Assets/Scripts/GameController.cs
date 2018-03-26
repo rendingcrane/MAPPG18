@@ -29,6 +29,7 @@ public class GameController : MonoBehaviour {
     public Player playerO;
     public PlayerColor activePlayerColor;
     public PlayerColor inactivePlayerColor;
+    public PlayerColor originalPlayerColor;
     public GameObject startInfo;
 
     private string playerSide;
@@ -169,7 +170,7 @@ public class GameController : MonoBehaviour {
         gameOverPanel.SetActive(false);
         restartButton.SetActive(false);
         SetPlayerButtons(true);
-        SetPlayerColorsInactive();
+        SetPlayerColorsOriginal();
         startInfo.SetActive(true);
 
         for (int i = 0; i < buttonList.Length; i++)
@@ -189,6 +190,14 @@ public class GameController : MonoBehaviour {
     {
         playerX.button.interactable = toggle;
         playerO.button.interactable = toggle;
+    }
+
+    void SetPlayerColorsOriginal()
+    {
+        playerX.panel.color = originalPlayerColor.panelColor;
+        playerX.text.color = originalPlayerColor.textColor;
+        playerO.panel.color = originalPlayerColor.panelColor;
+        playerO.text.color = originalPlayerColor.textColor;
     }
 
     void SetPlayerColorsInactive()
